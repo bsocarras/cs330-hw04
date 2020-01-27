@@ -7,11 +7,21 @@
     size: 100px;
 }
 
+.fab.fa-spotify article {
+    padding: 15px;
+    height: 10%;
+}
+
 .fas.fa-home, .fas.fa-search, .fas.fa-headphones-alt {
     display: flex;
+    
     padding: 15px;
     text-align: center;
     text-indent: 30px;
     text-align: center;
+}
+
+.fas.fa-home article {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
