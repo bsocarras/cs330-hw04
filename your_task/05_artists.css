@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+#featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: large;
+    justify-content: center;
+}
+
+.artist-card {
+    width: 18%;
+    padding: 25px;
+    background-color: #282828;
+    margin: 10px;
+    border-radius: 30px;
+    flex-direction: column;
+    height: 300px;
+    
+}
+
+img {
+    max-width:100%;
+    height:auto;
+    border-radius: 100px;
+}
+
+h3 {
+    margin-bottom: 1px;
+}
+
+p {
+    margin-top: 1px;
+}

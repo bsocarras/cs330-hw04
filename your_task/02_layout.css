@@ -44,3 +44,19 @@ footer {
     background: #222;
     grid-area: bottom;
 }
+
+@media only screen and (max-width: 1000px) {
+    .artist-card {
+        width: 30% !important;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-areas:
+    "main main"
+    "bottom bottom";
+
+    .artist-card {
+        width: 48% !important;
+    }
+  }
