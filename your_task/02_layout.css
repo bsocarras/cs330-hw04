@@ -49,10 +49,6 @@ footer {
     .artist-card {
         width: 30% !important;
     }
-
-    .artist-card div {
-        height: 350px !important;
-    }
   }
 
   @media only screen and (max-width: 600px) {

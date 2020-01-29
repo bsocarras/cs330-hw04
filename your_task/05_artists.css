@@ -13,7 +13,6 @@
 .artist-card {
     display: flex;
     width: 18%;
-    
     height: auto;
     margin: 10px;
 }
@@ -23,7 +22,7 @@
     background-color: #282828;
     padding: 25px;
     flex-direction: column;
-    height: 350px;
+    height: 375px;
     border-radius: 30px;
 }
 
@@ -51,6 +50,7 @@ p {
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 30px;
+    margin-bottom: 2px;
 }
 
 .artist-card:hover .play-button {

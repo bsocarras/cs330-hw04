@@ -21,9 +21,15 @@ aside a {
     text-align: center;
     text-indent: 30px;
     text-decoration: none;
+    color: rgb(211, 211, 211) !important;
 }
 
 
-.selected .fas.fa-headphones-alt {
-    border-left: 2px solid #21aa5f;
+aside .selected {
+    border-left: 3px solid #21aa5f;
+    color: white !important;
+}
+
+aside a:hover {
+    color: white !important;
 }

@@ -31,16 +31,24 @@ header a {
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
-    line-height: -60px;
+    line-height: -80px;
 }
 
 #upgrade {
     border: 1px solid white;
 }
 
+#upgrade:hover {
+    background-color: gray;
+}
+
 #profile {
     background-color: #282828;
     font-weight: bold;
+}
+
+#profile:hover {
+    background-color: gray;
 }
 
 nav {
@@ -55,14 +63,20 @@ nav a {
     height: 5px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #c0c0c0;
+    color: rgb(211, 211, 211) !important;
 }
 
 nav .selected {
     border-width: 30px;
-    border-bottom: 4px solid #21aa5f;
+    border-bottom: 3px solid #21aa5f;
     text-align: center;
-    color: white;
+    color: white !important;
+}
+
+nav a:hover {
+    color: white !important;
+    border-width: 30px;
+    border-bottom: 3px solid #21aa5f;
 }
 
 
