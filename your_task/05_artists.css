@@ -22,7 +22,7 @@
     background-color: #282828;
     padding: 25px;
     flex-direction: column;
-    height: 375px;
+    height: 350px;
     border-radius: 30px;
 }
 
@@ -42,15 +42,14 @@ p {
 
 .artist-card .play-button {
     display: none;
-    flex-direction: row;
-    align-self: flex-end;
     background-color: #21aa5f;
+    align-self: flex-end;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-top: -15px;
 }
 
 .artist-card:hover .play-button {
