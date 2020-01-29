@@ -60,7 +60,7 @@ nav a {
 
 nav .selected {
     border-width: 30px;
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid #21aa5f;
     text-align: center;
     color: white;
 }
